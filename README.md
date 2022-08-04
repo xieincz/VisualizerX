@@ -1,5 +1,5 @@
 # VisualizerX
-a modification based on https://github.com/luo3300612/Visualizer/blob/main/visualizer/visualizer.py
+a modification based on https://github.com/luo3300612/Visualizer
 support to get multiple local variable from one function
 
 ## install
@@ -9,12 +9,12 @@ python setup.py install
 ```
 
 ## Usage
-decorate the function 'with get_local'
+decorate the function with 'get_local'
 
 ### Example 1
 ```python
 from visualizer import get_local
-@get_local('attention_map1','attention_map2')
+@get_local('attention_map1', 'attention_map2')  # input the local variables
 def your_attention_function(*args, **kwargs):
     ...
     attention_map1 = ... 

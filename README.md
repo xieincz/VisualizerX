@@ -12,6 +12,7 @@ python setup.py install
 decorate the function with 'get_local'
 
 ### Example 1
+Model
 ```python
 from visualizer import get_local
 @get_local('attention_map1', 'attention_map2')  # input the local variables

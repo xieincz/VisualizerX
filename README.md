@@ -4,6 +4,7 @@ support to get multiple local variable from one function
 
 ## install
 ```shell
+pip uninstall visualizer visualizerX
 pip install bytecode
 python setup.py install
 ```
